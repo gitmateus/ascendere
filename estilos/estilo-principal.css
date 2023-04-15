@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+:root{
+    --corpreto: #404040;
+    --corpreto2: #333333;
+    --corpretosombra: #333333;
+    --corbranco: #fffbf2de;
+
+    --azul1: #5193C4;
+    --azul2: #92B4CE;
+    --azul3: #1C3345;
+    --azul4: #313C45;
+    --azul5: #3C6C91;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--corpreto);
+
+}
+
+header {
+    background-color: var(--corpreto2);
+    padding: 15px;
+    box-shadow: 0px 3px 5px var(--corpretosombra);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 42px;
+    color: var(--azul1);
+}
+
+header > p {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: var(--azul2);
+}
+
+ nav{
+    text-align: center;
+    margin: 15px;
+}
+
+ nav > a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    color: var(--corbranco);
+    margin: 50px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+ nav > a:hover {
+    color: var(--azul5);
+    background-color: var(--azul2);
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: underline;
+}
+
+body > img {
+    margin: auto;
+    width: 100px;
+}
+
+main{
+    min-width: 500px;
+    max-width: 1200px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0px 00px 10px 5px var(--corpretosombra);
+    border-radius: 10px;
+
+}
+
+main > h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    color: var(--azul1);
+}
+
+main > p {
+
+    font-family: 'Comfortaa', cursive;
+    text-align: justify;
+    font-size: 20px;
+    color: var(--corbranco);
+    margin: 10px;
+}
